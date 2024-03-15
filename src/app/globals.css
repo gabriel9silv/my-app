@@ -34,7 +34,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote, q {																	
 	quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -48,15 +48,49 @@ table {
 }
 
 /* CSS do Projeto */
+html{
+	font-size: 62.5%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.6rem;
+}
 
 h1 {
-  font-size: large;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: medium;
+  font-size: 2.8rem;
 }
 
 h3 {
-  font-size: small;
+  font-size: 2rem;
+  font-weight: bold;
 }
+
+p{
+	font-size: 2rem;
+}
+
+label{
+	font-size: 1.6rem;
+}
+
+li{
+	margin: 1rem;
+}
+@media screen and (max-width: 780px) {
+	html{
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	html{
+		font-size: 30%;
+	}
+}
+	
